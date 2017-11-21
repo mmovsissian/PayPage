@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller2">
+   <children>
+      <Text fill="#2663bf" layoutX="50.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Credit Card Number">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <TextField layoutX="50.0" layoutY="63.0" prefHeight="26.0" prefWidth="217.0" promptText="4111 1111 1111 1111" />
+      <Text fill="#2663bf" layoutX="50.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Expiry date">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="day" layoutX="50.0" layoutY="155.0" prefHeight="26.0" prefWidth="42.0" />
+      <ChoiceBox fx:id="month" layoutX="116.0" layoutY="155.0" prefHeight="26.0" prefWidth="42.0" />
+      <Text layoutX="101.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="/">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fill="#2663bf" layoutX="46.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Security Code">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <TextField fx:id="seccode" layoutX="50.0" layoutY="250.0" prefHeight="26.0" prefWidth="42.0" promptText="123" />
+      <Button fx:id="addcard" layoutX="350.0" layoutY="227.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="81.0" text="Add Card" />
+   </children>
+</AnchorPane>
